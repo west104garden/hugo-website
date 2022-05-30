@@ -1,4 +1,4 @@
-baseURL = 'http://https://splendid-bonbon-cd8e2b.netlify.app/'
+baseURL = 'https://splendid-bonbon-cd8e2b.netlify.app/'
 languageCode = 'en-us'
 title = 'West 104 Street Garden'
 theme = "eureka"
