@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="/status/images.css">
+
+<div class="row" style="display:flex; flex-direction: row; justify-content: space-around" >
+    {{ range .Params }}
+        <img src="{{ . }}" width="25%" height="25%" padding="100px"/>
+    {{ end }}
+</div>

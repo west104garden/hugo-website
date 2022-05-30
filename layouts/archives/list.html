@@ -1,0 +1,11 @@
+{{ range where .Site.Pages "Section" "post" }}
+    {{ range (.Pages.GroupByDate "2006") }}
+        -year key
+            {{ range (.Pages.GroupByDate "1") }}
+                - month key
+                    {{ range .Pages}}
+                {{ .Render "summary" }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
