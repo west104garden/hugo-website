@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="850ebaef-5436-4430-9566-250012f41f0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653798044167</updated>
       <workItem from="1653798046992" duration="20492000" />
-      <workItem from="1653876510806" duration="15277000" />
+      <workItem from="1653876510806" duration="16580000" />
     </task>
     <servers />
   </component>
