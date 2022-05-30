@@ -1,0 +1,22 @@
+{
+  "name": "hugo-website",
+  "version": "1.0.0",
+  "description": "west104garden hugo-powered website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/west104garden/hugo-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/west104garden/hugo-website/issues"
+  },
+  "homepage": "https://github.com/west104garden/hugo-website#readme",
+  "dependencies": {
+    "postcss-cli": "^9.1.0"
+  }
+}
