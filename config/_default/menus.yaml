@@ -1,10 +1,10 @@
 main:
   - name: Archive
-    url: /archive/
+    url: /posts/
     weight: 40
   - name: About
     url: /about/
     weight: 40
-  - name: Posts
-    url: /posts/
+  - name: Home
+    url: /
     weight: 40

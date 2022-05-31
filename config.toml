@@ -1,7 +1,25 @@
 baseURL = 'https://splendid-bonbon-cd8e2b.netlify.app/'
 languageCode = 'en-us'
 title = 'West 104 Street Garden'
-theme = "eureka"
-# theme = "ananke"
+# theme = "eureka"
+theme = "ananke"
 
-sectionPagesMenu = "main"
+hierarchicalCategories = true
+background_color_class = "bg-blue"
+
+
+[params]
+  [[params.sharingOptions]]
+    name = "Facebook"
+    icon = "fab fa-facebook-square"
+    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+
+  [[params.sharingOptions]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    url = "https://twitter.com/intent/tweet?text=%s"
+
+  [[params.sharingOptions]]
+    name = "Google+"
+    icon = "fab fa-google-plus"
+    url = "https://plus.google.com/share?url=%s"
