@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main>
+    {{ range .Data.Pages.GroupByDate "2006" }}
+    <div class="bg-white mb3 pa2 gray">
+        <h3>{{ .Key }}</h3>
+    </div>
+    <details class="bg-white mb3 pa4 gray overflow-hidden">
+        <summary> Blog posts for year {{ .Key }} - click to expand</summary>
+        <div>
+            <table class="bg-white" style="margin-left:100px;padding:10px;width:100%">
+                <!-- ANOTHER WAY: <div style="margin-left: 2em" id="list"></div> -->
+                {{ range .Pages }}
+                {{ .Render "li"}}
+                {{ end }}
+            </table>
+        </div>
+    </details>
+    {{ end }}
+</main>
+{{ end }}
