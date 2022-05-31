@@ -1,6 +1,7 @@
 ---
 title: "Looking for Garden Video!"
 date: "2008-05-04"
+featured_image: none
 categories:
 
 - "opportunities"

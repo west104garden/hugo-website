@@ -1,5 +1,5 @@
 ---
-title: "Harlem Green: 3rd annual tour of Harlem gardens, Saturday, August 9th, 2008"
+title: "Harlem Green: 3rd annual tour of Harlem gardens"
 date: "2008-08-06"
 categories: 
   - "events"

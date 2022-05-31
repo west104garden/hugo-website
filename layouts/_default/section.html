@@ -1,14 +1,16 @@
 {{ define "main" }}
 <main>
-    <h3>Section: {{ .Title }}</h3>
     {{ range .Data.Pages.GroupByDate "2006" }}
-    <h4>{{ .Key }}</h4>
-    <!-- ANOTHER WAY: <div style="margin-left: 2em" id="list"></div> -->
-    <ul>
-        {{ range .Pages }}
-        {{ .Render "li"}}
-        {{ end }}
-    </ul>
+    <div class="bg-white mb3 pa4 gray overflow-hidden">
+        <h2>{{ .Key }}</h2>
+    </div>
+        <table class="bg-white" style="margin-left:100px;padding:10px">
+            <!-- ANOTHER WAY: <div style="margin-left: 2em" id="list"></div> -->
+            {{ range .Pages }}
+            {{ .Render "li"}}
+            {{ end }}
+        </table>
+    </div>
     {{ end }}
 </main>
 {{ end }}

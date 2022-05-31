@@ -7,19 +7,22 @@ theme = "ananke"
 hierarchicalCategories = true
 background_color_class = "bg-blue"
 
-
 [params]
-  [[params.sharingOptions]]
-    name = "Facebook"
-    icon = "fab fa-facebook-square"
-    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+# site_logo = "images/logo.jpeg"
+custom_css = ["custom.css"]
 
-  [[params.sharingOptions]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    url = "https://twitter.com/intent/tweet?text=%s"
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://www.instagram.com/west104garden/"
 
-  [[params.sharingOptions]]
-    name = "Google+"
-    icon = "fab fa-google-plus"
-    url = "https://plus.google.com/share?url=%s"
+[[params.ananke_socials]]
+name = "slack"
+url = "https://join.slack.com/t/west104garden/shared_invite/zt-19vhpyl3p-3dQLzYvtBpG0VxkUybiCeA"
+
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/west104streetgarden/"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/west104garden/hugo-website"

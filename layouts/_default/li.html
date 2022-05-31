@@ -1,8 +1,18 @@
-<article>
-    <li>
-        <div class="prose mx-6 my-8">
-            <a href="{{ .Permalink }}">{{ .Title }} {{ if eq .Draft true }} <span class="test">DRAFT</span>{{ end }}</a>
-             -- {{ .Date.Format "Mon, 2 Jan, 2006" }}
-        </div>
-    </li>
-</article>
+<!--<article>-->
+<!--    <div>-->
+<!--        <a href="{{ .Permalink }}">{{ .Title }} {{ if eq .Draft true }} <span class="test">DRAFT</span>{{ end }}</a>-->
+<!--        &#45;&#45; {{ .Date.Format "Mon, 2 Jan, 2006" }}-->
+<!--    </div>-->
+<!--</article>-->
+
+<tr>
+    <td class="padded" style="width:30%">
+        {{ .Date.Format "Mon, 2 Jan, 2006" }}
+    </td>
+    <td class="padded">
+        <a href="{{ .RelPermalink }}" class="link black dim">
+            {{ .Title }}
+        </a>
+    </td>
+</tr>
+

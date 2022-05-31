@@ -1,5 +1,6 @@
 ---
 title: About
+featured_image: '/images/feature.jpg'
 ---
 
 Dear Neighbor,
